@@ -1,0 +1,20 @@
+data_dir=/home/amenon/JediHQ/SentimentAnalysis/JST/JST/data/
+datasetFile=test1.dat
+result_dir=/home/amenon/JediHQ/SentimentAnalysis/JST/JST/result/test/t2/
+sentiLexFile=/home/amenon/JediHQ/SentimentAnalysis/JST/JST/data/mpqa.constraint
+
+-------------------- Corpus statistics -----------------------
+numDocs=8
+corpusSize=94
+aveDocLength=11
+vocabSize=72
+
+---------------------- Model settings -----------------------
+numSentiLabs=3
+numTopics=50
+liter=690
+savestep=10
+updateParaStep=-1
+_alpha=0.003667
+_beta=0.010000
+_gamma=0.183333
